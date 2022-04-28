@@ -14,6 +14,7 @@ import java.io.IOException;
 public class MainProject {
     public static void main(String[] args) throws IOException{
         RedditFileReader reader = new RedditFileReader();
-        reader.read();
+//        reader.read();
+        reader.dateProcessing();
     }
 }
